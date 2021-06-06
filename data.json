@@ -1,0 +1,23 @@
+{ 
+    "section1" : {
+        "name" : "Abhiram"
+    },
+    "section2" : {
+        "full_name" : "Abhiram Krishnakumar Nair",
+        "about" : "Hey! My name Is Abhiram. I did my Bachelor's in Management studies and majored in Finance.",
+        "profile_image": "./images/Profile Pic.jpg"
+    },
+    "section3" : {
+        "skill_1": "Financial Analysis",
+        "skill_2": "Basics of Python and SQL",
+        "skill_3": "AML,KYC and Compliance",
+        "skill_4": "Intermidiate Guitarist",
+        "skill_5": "Research"
+    },
+    "section4" : {
+        "instagram" : "https://www.instagram.com/",
+        "twitter" : "https://twitter.com/",
+        "github" : "https://github.com/",
+        "linkedin" : "https://www.linkedin.com/in/"
+    }   
+}
