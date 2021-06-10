@@ -2,9 +2,6 @@
 
 # Easy Portfolio Template
 
-![2021-06-04 23-15-30_Trim](https://user-images.githubusercontent.com/64985447/120843980-62495b00-c58c-11eb-81af-0255b7391495.gif)
-
-Demo site of this project : https://sohan9819.github.io/
 
 ## Make your portfolio ready in just 10mins
 
