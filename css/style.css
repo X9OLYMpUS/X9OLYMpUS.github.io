@@ -9,20 +9,6 @@
   box-sizing: border-box;
 }
 
-/* :root {
-  --font-main: "Source Code Pro", monospace;
-  --font-secondary: "Source Sans Pro", sans-serif;
-  --font-light: 300;
-  --font-bold: 800;
-  --cream-white: hsl(47.1, 100%, 97.3%);
-  --teal: teal;
-  --black: #353535;
-  --gray: #4f4f4f;
-  --medium-gray: #737373;
-  --light-gray: #c4c4c4;
-  --orange: #f96855;
-} */
-
 html {
   scroll-behavior: smooth;
   scroll-snap-type: x proximity;
@@ -193,7 +179,7 @@ a:active {
     minmax(1em, 1fr)
     repeat(1, minmax(10rem, 30rem))
     minmax(1em, 1fr);
-  gap: 2em;
+  gap: 0.5em;
   scroll-snap-align: start;
 }
 
@@ -301,6 +287,7 @@ a:active {
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  text-align: center;
 }
 
 .portfolio-item {
@@ -424,6 +411,74 @@ a:active {
   opacity: 1;
   height: 100%;
   top: 0;
+}
+
+@media (max-width: 700px) {
+  .portfolio {
+    display: grid;
+    height: 90vh;
+    width: 90%;
+    max-width: 400px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .small {
+    grid-row: 1;
+    grid-column: 2 / -2;
+    /* display: none; */
+    height: 80%;
+    padding: 0 0.8em;
+  }
+
+  .one {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .large {
+    grid-row: 3;
+    grid-column: 1 / -1;
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .three {
+    grid-row: 4;
+    grid-column: 1 / -1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tall {
+    grid-row: 5;
+    grid-column: 1 / -1;
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .wide {
+    grid-row: 6;
+    grid-column: 1 / -1;
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* ####################  Section 4 ########################## */
